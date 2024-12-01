@@ -42,6 +42,6 @@ echo "$infile has $(wc -l $infile | awk '{print $1}') lines"
 
 git add "$prog" "$desc" "$infile"
 
-gvim "$prog" "$desc" "$infile"
+vim "$prog" "$desc" "$infile"
 
 
